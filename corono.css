@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  }
+
+  li a {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  li img 
+  {
+      padding-top: 10px;
+      padding-right:40px;
+      float:right;
+      height: 100px;
+      width: 100px;
+  }
+
+  li h1
+  {
+    font-size: 40px;
+    padding-right: 100px;
+    color: lime;
+    float: right;
+  }
+
+  li a:hover {
+    background-color: rgb(226, 44, 44);
+  }
+
+
+  .outer
+  {
+      margin-top: 60px;
+      
+  }
+  .Whatiscoronavirus
+{
+  width:60%;
+  border:3px solid red;
+  height:400px;
+ 
+}
+ .Whatiscovid19
+{
+  width:60%;
+  border:3px solid red;
+  height:400px;
+ 
+}
+
+#preventivemeasures{
+  width:35%;
+  height:250px;
+
+}
+#prevensions
+{
+  border: 3px solid red;
+  margin-top: 2px;
+ float: left;
+  width:35%;
+}
+#socialdistancing
+{
+  border: 3px solid red;
+  margin-top: 2px;
+ float: right;
+ width: 60%;
+}
+#masks
+{
+  border: 3px solid red;
+  margin-top: 2px;
+ float: right;
+ width: 60%;
+}
+body
+{
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/200320110619-coronavirus-animation-super-tease.jpg");
+  background-size: cover;
+}
+
